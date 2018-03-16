@@ -1,0 +1,78 @@
+Part I - Zhenzhen:
+
+
+
+A.
+
+1. Hamburger icon
+2. Navigation tabs
+3. Thumbnail
+4. Adaptable view
+5. Home link
+
+
+
+B.
+
+Design patterns are recurring solutions that solve common design problems. These patterns should meet users’ browsing habits, and make user experience better.
+
+
+
+C.
+
+1. Hamburger icon:
+Use class=“glyphicon glyphicon-menu-hamburger” for the <button> on the rightest column of the top navbar.
+
+2. Navigation tabs:
+Use <nav> to wrap all the <a> links inside.
+
+3. Thumbnail:
+Use class=“img-thumbnail” for the <img>.
+In addition, you can also put <img> inside of <a>, to make a link.
+
+4. Adaptable view:
+Give multiple values for the column <div> class to make an adaptable view, such as class=“col-sm-6 col-xs-12”.
+
+5. Home link:
+Put the home link on the leftist column of the top nav bar.
+
+
+
+D.
+
+1. Hamburger icon:
+Inside of the <body> of .html file, the top navbar.
+<body> 
+   <nav>
+	<button>
+
+2. Navigation tabs:
+Inside of the <body> of .html file, the top navbar.
+<body>
+    <nav>
+        <a>
+
+3. Thumbnail:
+Inside of the <body> of .html file for the sub-page of Sponsor, such as <a href=“#”><img src=“#” class=“img-thumbnail”></a>
+<body>
+    <div>
+        <a>
+            <img>
+
+4. Adaptable view:
+In CSS, use:
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-around;
+
+5. Home link:
+Inside of the <body> of .html file, the top nav bar.
+<body>
+    <nav>
+        <a>
+            <img>
+
+
+
+
+
